@@ -1,5 +1,5 @@
 body{
-    background-color: #0000;
+    background-color: rgba(39, 129, 247, 0.253);
     font-family: 'Source Serif Pro', serif;
     text-align:center;
     font-size: 18px;
@@ -12,13 +12,13 @@ body{
 }
 .nav-link:hover{
     font-weight:bolder;
-    background-color: #eee;
+    background-color: rgba(252, 252, 252, 0.555);
 }
 i {
   margin-right: 10px;
 }
 header{ 
-    height: 700px;
+    height: 730px;
     width: 100%;
     text-align: center;
     color: rgb(248, 248, 248);
@@ -28,4 +28,16 @@ header{
 header h1{
     font-size: 150px;
     text-shadow: 0 0 30px rgb(45, 105, 196);
+}
+.mission{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.mymissionheading{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding-bottom: 30px;
 }
