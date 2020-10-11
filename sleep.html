@@ -3,53 +3,58 @@
 
 <head>
 	<title>Sweet Dreams</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<!--Bootstrap Css-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	 crossorigin="anonymous">
 	<!--Links-->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Google Fonts------>
-	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<!-- Font Awesome Link --->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
 	 crossorigin="anonymous">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<i class="fas fa-cloud-moon"></i>
-          <a class="navbar-brand" href="index.html">Sweet Dreams</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <i class="fas fa-cloud-moon"></i>
+    <a class="navbar-brand" href="index.html">Sweet Dreams</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav">
               <a class="nav-item nav-link active" href="mission.html">My Mission<span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link" href="brain.html">The Brain</a>
               <a class="nav-item nav-link" href="sleep.html">The Importance of Sleep</a>
+              <a class="nav-item nav-link" href="bettersleep.html" tabindex="-1" aria-disabled="true">Better Sleep</a>
               <a class="nav-item nav-link" href="timemanagement.html" tabindex="-1" aria-disabled="true">Time Management</a>
-              <a class="nav-item nav-link" href="#contact" tabindex="-1" aria-disabled="true">Resources</a>
-            </div>
-          </div>
-        </nav>
+        </div>
+    </div>
+  </nav>
         <!--begin Header section-------------->
-        <header class="d-flex align-items-center">
-            <div class="container">
-                <h1> Sweet Dreams </h1> 
-            </div>
-        </header>
-        <!--end Header section---------------->
-        <!--begin About Us section------------>
-        <section class="mission container-fluid align-items-center" id="mission">
-          <h1>My Mission</h1>
-          <div class="container">
-                 <p>I created this project to help high school students realize the importance of sleep and how the lack of sleep effects the brain.</p>
-                 <p>Browse through my website to learn more about sleep and how you can get more of it.</p>
-                 <a href="mission.html" class="btn btn-lg btn-primary">Learn More About My Mission</a>
-                 <br></br>
-                 <hr></hr>
+        <section class="heading d-flex align-items-center">
+           <div class="container">
+                <h1> The Importance of Sleep</h1>
           </div>
         </section>
-        <!--end About Us section-------------->
-  </body>
+        <!--end Header section---------------->
+        <section class="sleepbody container-fluid align-items-center" id="sleepbody">
+          <div class="container">
+              <p>Sleep doesn’t only affect our brain; It also has many effects on other parts of the body, and these effects can be very serious.</p>
+              <img src="sleepandbody.png" alt="How Sleep Affects Your Body">
+              </img>
+              <p>As you can see, sleep is very important for all parts of your body to function properly. Over time, the problems that sleep deprivation causes can become serious, so make sure you get a good night’s sleep! </p>
+              <a href="bettersleep.html" class="btn btn-lg btn-primary">Learn About Tips to Get Better Sleep</a>
+          </div>
+        </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+       
 </html>
